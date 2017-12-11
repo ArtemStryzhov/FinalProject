@@ -1,0 +1,25 @@
+.section_one {
+    max-height: 450px;
+    background-color: #f8f8f8;
+    position: relative;
+    min-height: 600px;
+}
+
+.section_one_image {
+    height: 100%;
+    top: -110px;
+    left: 15px;
+    position: absolute;
+    min-width: 30%;
+}
+
+.class_for_width {
+    width: 100%;
+    position: absolute;
+    top: -45px;
+    left: 15px;
+}
+
+.section_one_wrap {
+    background-color: #f8f8f8;
+}

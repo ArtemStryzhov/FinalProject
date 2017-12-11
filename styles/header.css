@@ -1,0 +1,130 @@
+.nav_menu_list {
+    list-style: none;
+    display: flex;
+}
+
+.store_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    height: 110px;
+    padding: 0px 60px 0px 60px;
+}
+
+.nav_menu_reg {
+    list-style: none;
+    display: flex;
+    color: #898989;
+}
+
+.register_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    height: 45px;
+    padding: 0px 250px 0px 250px;
+}
+
+.chart {
+    background-color: #00c8c8;
+    padding: 0px 18px 0px 18px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.li_menu:hover {
+    color: #00c8c8;
+}
+
+.li_menu {
+    margin: 0px 28px 0px 28px;
+}
+
+.search_input {
+    margin: 0px 50px 0px 50px;
+}
+
+.register_header_right {
+    display: flex;
+    align-items: center;
+}
+
+.Sign_in {
+    padding: 0px 80px 0px 80px;
+}
+
+.nav_menu_reg>li {
+    padding: 0px 15px 0px 15px;
+}
+
+.submenu_1_up_left>ul {
+    list-style: none;
+    color: #727272;
+}
+
+.submenu_1_up_right>ul {
+    list-style: none;
+    color: #727272;
+}
+
+.submenu_1_up {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.submenu_1 {
+    display: none;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+#mens:hover .submenu_1 {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    z-index: 10;
+}
+
+.submenu_1_down {
+    background-color: #333333;
+    padding: 10px;
+    margin: 15px;
+}
+
+.Autumn_sale {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.Up_to {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.currency {
+    color: #777777;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1256px) {
+    .li_menu {margin: 0px 15px 0px 15px;}
+}
+
+@media screen and (max-width: 1135px) {
+    .li_menu {margin: 0px 5px 0px 5px;}
+}
+
+@media screen and (max-width: 1070px) {
+    .nav_menu_list {display: none}
+}
+
